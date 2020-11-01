@@ -1,0 +1,73 @@
+header {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+header .profpict {
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 100%;
+    transition: all .2s;
+    box-shadow: 0;
+    opacity: 1;
+}
+header .profpict:hover {
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15);
+    opacity: .8;
+}
+
+header .title {
+    font-size: 3rem;
+    margin: 0 0 13px;
+}
+
+header .subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    padding: 40px 0;
+    margin: 40px 0 0;
+    font-size: 1rem;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+}
+
+footer .image {
+  float: left;
+  height: 100px;
+  width: auto;
+  margin-right: 20px;
+}
+
+article {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+article .pict {
+    margin: 0 auto;
+    display: block;
+}
+
+article .bio {
+  font-family: sans-serif;
+  color: gray;
+  line-height: 25px;
+}
+
+.pict img {
+  max-height: 400px;
+  width: auto;
+  border-radius: 10px;
+}
